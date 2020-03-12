@@ -1,0 +1,1 @@
+define([],function(){var a=["//google.com/recaptcha/api.js?&render=explicit&onload=onRecaptchaLoad","//recaptcha.net/recaptcha/api.js?&render=explicit&onload=onRecaptchaLoad"];return{load:function(e,c,n,o){window.__grecaptcha__=$.Deferred(),window.onRecaptchaLoad=function(){window.__grecaptcha__.resolve()},a.forEach(function(a){return c([a])}),c([e],function(a){return n(a)})}}});

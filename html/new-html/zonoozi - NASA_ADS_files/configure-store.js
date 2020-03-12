@@ -1,0 +1,1 @@
+define(["redux","redux-thunk","./modules/orcid-selector-app"],function(e,r,t){var u=e.createStore,d=e.applyMiddleware;return function(n){var o=d(r.default.withExtraArgument(n)),a=window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__||e.compose;return u(t.reducer,a(o))}});

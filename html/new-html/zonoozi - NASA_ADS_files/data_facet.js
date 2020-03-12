@@ -1,0 +1,1 @@
+define(["js/widgets/facet/factory"],function(e){return function(){return e.makeBasicCheckboxFacet({facetField:"data_facet",facetTitle:"Data",logicOptions:{single:["limit to","exclude"],multiple:["and","or","exclude"]}})}});

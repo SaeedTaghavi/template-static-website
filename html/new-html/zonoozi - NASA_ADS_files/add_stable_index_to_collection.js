@@ -1,0 +1,1 @@
+define(["underscore"],function(n){return{getPageStart:function(n,t,e){return e?Math.min(n*t,e):n*t},getPageEnd:function(n,t,e){var r=this.getPageStart(n,t)+t;return r>e?e:r},getPageVal:function(n,t){return Math.floor(n/t)},addPaginationToDocs:function(t,e){var r=n.isArray(e)?e[0]:parseInt(e);return n.each(t,function(n){n.resultsIndex=r,n.indexToShow=r+1,r+=1}),t}}});

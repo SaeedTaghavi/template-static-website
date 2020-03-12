@@ -1,0 +1,1 @@
+define(["js/widgets/facet/factory"],function(e){return function(){return e.makeBasicCheckboxFacet({facetField:"bibstem_facet",facetTitle:"Publications",logicOptions:{single:["limit to","exclude"],multiple:["or","exclude"]}})}});

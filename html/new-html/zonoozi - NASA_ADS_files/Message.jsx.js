@@ -1,0 +1,1 @@
+define(["react"],function(e){return function(t){var a=t.type,c=t.message,n=t.show;return e.createElement("div",{className:"col-xs-12"},n&&e.createElement("div",{className:"text-center alert alert-".concat(a)},c))}});

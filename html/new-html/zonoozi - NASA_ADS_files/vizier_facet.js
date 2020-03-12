@@ -1,0 +1,1 @@
+define(["js/widgets/facet/factory"],function(e){return function(){return e.makeBasicCheckboxFacet({facetField:"vizier_facet",facetTitle:"Vizier Tables",logicOptions:{single:["limit to","exclude"],multiple:["and","or","exclude"]}})}});

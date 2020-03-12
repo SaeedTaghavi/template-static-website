@@ -1,0 +1,1 @@
+define(["react-redux","../redux/modules/orcid-selector-app","../components/orcid-selector-app.jsx"],function(e,n,r){var t=n.sendEvent;return e.connect(function(e){return{app:e}},function(e){return{onClaim:function(){return e(t("orcid-bulk-claim"))},onDelete:function(){return e(t("orcid-bulk-delete"))},onUpdate:function(){return e(t("orcid-bulk-update"))}}})(r)});

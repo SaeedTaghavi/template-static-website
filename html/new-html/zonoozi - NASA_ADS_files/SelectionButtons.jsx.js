@@ -1,0 +1,1 @@
+define(["react"],function(t){return function(e){var n=e.onClick;return t.createElement("div",{className:"btn-toolbar pull-right"},t.createElement("button",{className:"btn btn-default",onClick:function(){return n("toggleall")}},"Toggle All"),t.createElement("button",{className:"btn btn-default",onClick:function(){return n("reset")}},"Reset"))}});

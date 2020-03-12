@@ -1,0 +1,1 @@
+define(["react"],function(e){return function(t){var n=t.formats,r=t.format,a=t.onChange;return e.createElement("select",{onChange:function(e){return a(e.target.value)},value:r,id:"export-format-control",className:"form-control",title:"Select a format"},n.map(function(t){return e.createElement("option",{key:t,value:t},t)}))}});

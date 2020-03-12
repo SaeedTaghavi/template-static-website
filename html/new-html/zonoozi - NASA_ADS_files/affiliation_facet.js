@@ -1,0 +1,1 @@
+define(["underscore","js/widgets/facet/factory"],function(e,t){return function(i){return t.makeHierarchicalCheckboxFacet(e.extend({facetField:"aff_facet_hier",facetTitle:"Affiliations",openByDefault:!1,logicOptions:{single:["limit to","exclude"],multiple:["and","or","exclude"]}},i))}});
